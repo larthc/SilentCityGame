@@ -13,3 +13,4 @@ dist/
 # Arquivos de sistema
 .DS_Store
 Thumbs.db
+Scenes/node_2d.tscn
