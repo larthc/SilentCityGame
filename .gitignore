@@ -1,0 +1,15 @@
+# Godot 4 — cache e arquivos gerados automaticamente pelo editor
+.godot/
+
+# Arquivos de exportação
+*.translation
+export_presets.cfg
+export.cfg
+
+# Builds exportadas
+build/
+dist/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
