@@ -4,8 +4,6 @@ const SPEED = 200.0
 const GRAVITY = 800.0
 const JUMP_FORCE = -400.0
 
-var vida = 100
-
 func _physics_process(delta):
 	if not is_on_floor():
 		velocity.y += GRAVITY * delta
@@ -17,8 +15,3 @@ func _physics_process(delta):
 		velocity.y = JUMP_FORCE
 
 	move_and_slide()
-
-func tomar_dano(valor):
-	vida -= valor
-	if vida < 0:
-		vida = 0
