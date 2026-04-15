@@ -5,8 +5,8 @@ var flags := {
 	"final_choice": ""
 }
 
-func set_flag(name, value):
-	flags[name] = value
+func set_flag(flag_name, value):
+	flags[flag_name] = value
 
-func get_flag(name):
-	return flags.get(name, null)
+func get_flag(flag_name):
+	return flags.get(flag_name, null)

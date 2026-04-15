@@ -3,5 +3,5 @@ extends Node2D
 @onready var player = $CharacterBody2D
 @onready var health_bar = $CanvasLayer/HealthBar
 
-func _process(delta):
+func _process(_delta):
 	health_bar.value = player.vida
